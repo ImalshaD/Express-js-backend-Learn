@@ -27,3 +27,5 @@ app.post("/api/users", (request, response)=>{
 app.listen(PORT, ()=>{
     console.log(`Running on Port ${PORT}.`)
 })
+
+export default app;
